@@ -14,12 +14,17 @@ return new class extends Migration
         Schema::create('documents', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('interest_id'); // Foreign key for interests
+            $table->unsignedBigInteger('person_id'); // Foreign key for personal_details
+            $table->string('interest');
             $table->string('name');
             $table->string('url');
             $table->timestamps();
 
             // Define foreign key relationship with interests
             $table->foreign('interest_id')->references('id')->on('interests');
+
+            // Define foreign key relationship with personal_details
+            $table->foreign('person_id')->references('id')->on('personal_details');
         });
     }
 
