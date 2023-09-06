@@ -26,6 +26,13 @@ To set up the Complex Query Web Application, follow these steps:
 
 
 ## Usage
+<img width="724" alt="image" src="https://github.com/sabeloeric/complex-queries/assets/48094027/61ebc520-aed8-45ed-afac-432267b1f1d2">
+
+
+<img width="724" alt="image" src="https://github.com/sabeloeric/complex-queries/assets/48094027/cd92adfd-aa1e-4df9-9992-5f05015b3d8e">
+
+
+
 - Navigate to the "Complex Query" page.
 
 - Click on the provided buttons to execute the following queries:
