@@ -43,9 +43,9 @@ class PersonalDetailsSeeder extends Seeder
     private function getRandomInterestName()
     {
         $interests = [
-            'Hiking', 'Cooking', 'Photography', 'Traveling', 'Reading',
-            'Music', 'Art', 'Crafts', 'Gaming', 'Dancing',
-            'Coding', 'Fitness', 'Yoga', 'Movies', 'Writing',
+            'Animals', 'Cooking', 'Photography', 'Traveling', 'Reading',
+            'Music', 'Art', 'Children', 'Gaming', 'Dancing',
+            'Coding', 'Sport', 'Yoga', 'Movies', 'Writing',
         ];
 
         return $interests[array_rand($interests)];
